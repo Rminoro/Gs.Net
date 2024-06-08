@@ -6,202 +6,102 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Checkpoint2.Models;
+using Checkpoint2.Repository;
 
 namespace Checkpoint2.Controllers
 {
     public class FuncionarioController : Controller
     {
-        private readonly Contexto _context;
+        private readonly IFuncionarioRepository _funcionarioRepository;
 
-        public FuncionarioController(Contexto context)
+        public FuncionarioController(IFuncionarioRepository funcionarioRepository)
         {
-            _context = context;
+            _funcionarioRepository = funcionarioRepository;
         }
 
         // GET: Funcionarios
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.Funcionario.ToListAsync());
+            var Funcionarios = _funcionarioRepository
+                .ListarTodos();
+            return View(Funcionarios);
         }
 
-        //LISTARTODOS
-        public IActionResult ListarTodos()
+       //obter um
+       public IActionResult Details(int id)
         {
-            var funcionarios = _context.Funcionario.ToList();   
-            return Json(funcionarios);
-        }
-
-        //LISTAR UM
-        public IActionResult ListarUm()
-        {
-            var funcionario = _context.Funcionario.Find(2);
-            return Json(funcionario);
-        }
-
-        //Inserir
-        public IActionResult Inserir()
-        {
-            var model = new Funcionario
-            {
-                Nome = "joao",
-                Função = "Ajudante"
-            };
-
-            _context.Funcionario.Add(model);
-            _context.SaveChanges();
-            return Json(new { });
-        }
-
-        //ALTERA
-
-        public IActionResult Alterar()
-        {
-            var funcionario = _context.Funcionario.Find(2);
-            funcionario.Nome = "pedro";
-            _context.Funcionario.Update(funcionario);
-            _context.SaveChanges();
-            return Json(funcionario);
-        }
-
-        //DELETE
-
-        public IActionResult Deletar()
-        {
-            var funcionario = _context.Funcionario.Find(2);
-
-            _context.Funcionario.Remove(funcionario);
-            _context.SaveChanges();
-            return Json(funcionario);
-        }
-
-
-        // GET: Funcionarios/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var funcionario = await _context.Funcionario
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (funcionario == null)
-            {
-                return NotFound();
-            }
-
+            var funcionario = _funcionarioRepository
+                .ObterUm(id);
             return View(funcionario);
         }
 
-        // GET: Funcionarios/Create
+        //adicionar
         public IActionResult Create()
         {
             return View();
-        }
 
-        // POST: Funcionarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        }
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Função")] Funcionario funcionario)
+
+        public IActionResult Create(Funcionario model)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(funcionario);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                _funcionarioRepository
+                    .SalvarFuncionario(model);
+                return RedirectToAction("Index");
             }
-            return View(funcionario);
+            return View(model);
         }
 
-        // GET: Funcionarios/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+
+        //editar
+        public IActionResult Edit(int id)
+        {
+            if (id == null)
+            { return NotFound(); }
+
+            var funcionarios = _funcionarioRepository.ObterUm(id);
+            return View(funcionarios);
+        }
+        [HttpPost]
+        public IActionResult Edit(int id, Funcionario model)
+        {
+            if (ModelState.IsValid)
+            {
+                model.Id = id;
+
+                _funcionarioRepository.EditarFuncionario(id, model);
+
+                return RedirectToAction("Index");
+            }
+            return View(model);
+        }
+
+
+        //Excluir
+        public IActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var funcionario = await _context.Funcionario.FindAsync(id);
-            if (funcionario == null)
+            var funcionarios = _funcionarioRepository.ObterUm(id.Value);
+            if (funcionarios == null)
             {
                 return NotFound();
             }
-            return View(funcionario);
-        }
 
-        // POST: Funcionarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+            return View(funcionarios);
+        }
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Função")] Funcionario funcionario)
+        public IActionResult Delete(int id)
         {
-            if (id != funcionario.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(funcionario);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!FuncionarioExists(funcionario.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(funcionario);
+            _funcionarioRepository.ExcluirFuncionario(id);
+            return RedirectToAction("Index");
         }
 
-        // GET: Funcionarios/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
-            var funcionario = await _context.Funcionario
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (funcionario == null)
-            {
-                return NotFound();
-            }
-
-            return View(funcionario);
-        }
-
-        // POST: Funcionarios/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var funcionario = await _context.Funcionario.FindAsync(id);
-            if (funcionario != null)
-            {
-                _context.Funcionario.Remove(funcionario);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool FuncionarioExists(int id)
-        {
-            return _context.Funcionario.Any(e => e.Id == id);
-        }
     }
 }
