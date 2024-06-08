@@ -1,57 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\views\\receitas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\views\\receitas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\views\\receitas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\views\\receitas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\views\\receitas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\views\\receitas\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\controllers\\receitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\models\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\models\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\repository\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\repository\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\views\\receitas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\views\\receitas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\views\\receitas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\views\\receitas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\views\\receitas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\views\\receitas\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\receitas\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\controllers\\receitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\controllers\\receitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\fafasfasfsafasfasf\\checkpoint2\\checkpoint2\\repository\\ireceitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|c:\\users\\user\\desktop\\gsnet\\checkpoint2\\checkpoint2\\repository\\ireceitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15964DFC-5F1B-45DA-A53C-874ECB7AF078}|Checkpoint2\\Checkpoint2.csproj|solutionrelative:checkpoint2\\repository\\ireceitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,119 +82,178 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Controllers\\ApiController.cs",
-              "RelativeDocumentMoniker": "Checkpoint2\\Controllers\\ApiController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Controllers\\ApiController.cs",
-              "RelativeToolTip": "Checkpoint2\\Controllers\\ApiController.cs",
+              "DocumentIndex": 2,
+              "Title": "Contexto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\Contexto.cs",
+              "RelativeDocumentMoniker": "Checkpoint2\\Models\\Contexto.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\Contexto.cs",
+              "RelativeToolTip": "Checkpoint2\\Models\\Contexto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:59:12.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Delete.cshtml",
-              "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T02:56:58.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Edit.cshtml",
-              "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Edit.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAwwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T02:56:11.908Z",
+              "WhenOpened": "2024-06-08T03:29:07.837Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Create.cshtml",
-              "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Create.cshtml",
-              "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Create.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBcAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T02:48:59.058Z",
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Repository\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "Checkpoint2\\Repository\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Repository\\ICategoriaRepository.cs",
+              "RelativeToolTip": "Checkpoint2\\Repository\\ICategoriaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T03:32:47.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Details.cshtml",
-              "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Details.cshtml",
-              "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Details.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAwwCUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T02:48:04.019Z",
+              "DocumentIndex": 4,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Checkpoint2\\Models\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\Funcionario.cs",
+              "RelativeToolTip": "Checkpoint2\\Models\\Funcionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T03:29:11.94Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Checkpoint2\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Checkpoint2\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T03:29:10.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Checkpoint2\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\Categoria.cs",
+              "RelativeToolTip": "Checkpoint2\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T03:18:54.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Edit.cshtml",
+              "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Edit.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T02:56:11.908Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Create.cshtml",
+              "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBcAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T02:48:59.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Details.cshtml",
+              "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Details.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T02:48:04.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Receita.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Models\\Receita.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\Receita.cs",
               "RelativeDocumentMoniker": "Checkpoint2\\Models\\Receita.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Models\\Receita.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Models\\Receita.cs",
               "RelativeToolTip": "Checkpoint2\\Models\\Receita.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T02:45:55.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Delete.cshtml",
+              "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T02:56:58.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "Checkpoint2\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "Checkpoint2\\Controllers\\ApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T02:59:12.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Index.cshtml",
               "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Index.cshtml",
               "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Index.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T02:41:37.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T02:41:37.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Index1.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Index1.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Index1.cshtml",
               "RelativeDocumentMoniker": "Checkpoint2\\Views\\Receitas\\Index1.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Index1.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Receitas\\Index1.cshtml",
               "RelativeToolTip": "Checkpoint2\\Views\\Receitas\\Index1.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T02:40:49.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T02:40:49.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Controllers\\CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "Checkpoint2\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "Checkpoint2\\Controllers\\CategoriasController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -183,55 +262,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Checkpoint2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Checkpoint2\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAwwBoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T02:36:44.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T02:36:44.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "FuncionariosController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Controllers\\FuncionariosController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Controllers\\FuncionariosController.cs",
               "RelativeDocumentMoniker": "Checkpoint2\\Controllers\\FuncionariosController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Controllers\\FuncionariosController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Controllers\\FuncionariosController.cs",
               "RelativeToolTip": "Checkpoint2\\Controllers\\FuncionariosController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:17:39.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T02:17:39.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "IReceitaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Repository\\IReceitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Repository\\IReceitaRepository.cs",
               "RelativeDocumentMoniker": "Checkpoint2\\Repository\\IReceitaRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Repository\\IReceitaRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Repository\\IReceitaRepository.cs",
               "RelativeToolTip": "Checkpoint2\\Repository\\IReceitaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:33:10.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T02:33:10.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ReceitasController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Controllers\\ReceitasController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Controllers\\ReceitasController.cs",
               "RelativeDocumentMoniker": "Checkpoint2\\Controllers\\ReceitasController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Controllers\\ReceitasController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Controllers\\ReceitasController.cs",
               "RelativeToolTip": "Checkpoint2\\Controllers\\ReceitasController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:30:08.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T02:30:08.504Z"
             }
           ]
         }

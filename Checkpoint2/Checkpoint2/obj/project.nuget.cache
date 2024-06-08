@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qym1HQBfftMtdrR+usRJED/CEuZPTwLsz47Gxim6WJ4VRH7XWnFU2GzmV/h95YpxaVTGihS4goirnu3fIHn9QA==",
+  "dgSpecHash": "KHXDoWrtBZQClIYcfiytMX7CO3+woiRVLZGLvp4TZdMRvBCunUDGjMnCO0Wcm/7LrhaUKuFWPRZsDiqAcRFHaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\fafasfasfsafasfasf\\Checkpoint2\\Checkpoint2\\Checkpoint2.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\GsNet\\Checkpoint2\\Checkpoint2\\Checkpoint2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
