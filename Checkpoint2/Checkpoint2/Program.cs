@@ -1,4 +1,5 @@
 ﻿using Checkpoint2.Models;
+using Checkpoint2.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,13 @@ builder.Services.AddDbContext<Contexto>(options => {
 
 
 });
+
+builder.Services.AddTransient<IFuncionarioRepository, FuncionarioRepository>();
+
+builder.Services.AddTransient<IReceitaRepository, ReceitaRepository>();
+
+builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+
 
 var app = builder.Build();
 

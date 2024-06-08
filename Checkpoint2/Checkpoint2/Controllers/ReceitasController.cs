@@ -10,6 +10,7 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.Identity.Client;
 
 namespace Checkpoint2.Controllers
+
 {
     public class ReceitasController : Controller
     {

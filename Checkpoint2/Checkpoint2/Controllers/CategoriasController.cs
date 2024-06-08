@@ -9,73 +9,22 @@ using Checkpoint2.Models;
 
 namespace Checkpoint2.Controllers
 {
-    public class FuncionarioController : Controller
+    public class CategoriasController : Controller
     {
         private readonly Contexto _context;
 
-        public FuncionarioController(Contexto context)
+        public CategoriasController(Contexto context)
         {
             _context = context;
         }
 
-        // GET: Funcionarios
+        // GET: Categorias
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Funcionario.ToListAsync());
+            return View(await _context.Categoria.ToListAsync());
         }
 
-        //LISTARTODOS
-        public IActionResult ListarTodos()
-        {
-            var funcionarios = _context.Funcionario.ToList();   
-            return Json(funcionarios);
-        }
-
-        //LISTAR UM
-        public IActionResult ListarUm()
-        {
-            var funcionario = _context.Funcionario.Find(2);
-            return Json(funcionario);
-        }
-
-        //Inserir
-        public IActionResult Inserir()
-        {
-            var model = new Funcionario
-            {
-                Nome = "joao",
-                Função = "Ajudante"
-            };
-
-            _context.Funcionario.Add(model);
-            _context.SaveChanges();
-            return Json(new { });
-        }
-
-        //ALTERA
-
-        public IActionResult Alterar()
-        {
-            var funcionario = _context.Funcionario.Find(2);
-            funcionario.Nome = "pedro";
-            _context.Funcionario.Update(funcionario);
-            _context.SaveChanges();
-            return Json(funcionario);
-        }
-
-        //DELETE
-
-        public IActionResult Deletar()
-        {
-            var funcionario = _context.Funcionario.Find(2);
-
-            _context.Funcionario.Remove(funcionario);
-            _context.SaveChanges();
-            return Json(funcionario);
-        }
-
-
-        // GET: Funcionarios/Details/5
+        // GET: Categorias/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -83,39 +32,39 @@ namespace Checkpoint2.Controllers
                 return NotFound();
             }
 
-            var funcionario = await _context.Funcionario
+            var categoria = await _context.Categoria
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (funcionario == null)
+            if (categoria == null)
             {
                 return NotFound();
             }
 
-            return View(funcionario);
+            return View(categoria);
         }
 
-        // GET: Funcionarios/Create
+        // GET: Categorias/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Funcionarios/Create
+        // POST: Categorias/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Função")] Funcionario funcionario)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Descricao")] Categoria categoria)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(funcionario);
+                _context.Add(categoria);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(funcionario);
+            return View(categoria);
         }
 
-        // GET: Funcionarios/Edit/5
+        // GET: Categorias/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -123,22 +72,22 @@ namespace Checkpoint2.Controllers
                 return NotFound();
             }
 
-            var funcionario = await _context.Funcionario.FindAsync(id);
-            if (funcionario == null)
+            var categoria = await _context.Categoria.FindAsync(id);
+            if (categoria == null)
             {
                 return NotFound();
             }
-            return View(funcionario);
+            return View(categoria);
         }
 
-        // POST: Funcionarios/Edit/5
+        // POST: Categorias/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Função")] Funcionario funcionario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Descricao")] Categoria categoria)
         {
-            if (id != funcionario.Id)
+            if (id != categoria.Id)
             {
                 return NotFound();
             }
@@ -147,12 +96,12 @@ namespace Checkpoint2.Controllers
             {
                 try
                 {
-                    _context.Update(funcionario);
+                    _context.Update(categoria);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!FuncionarioExists(funcionario.Id))
+                    if (!CategoriaExists(categoria.Id))
                     {
                         return NotFound();
                     }
@@ -163,10 +112,10 @@ namespace Checkpoint2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(funcionario);
+            return View(categoria);
         }
 
-        // GET: Funcionarios/Delete/5
+        // GET: Categorias/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -174,34 +123,34 @@ namespace Checkpoint2.Controllers
                 return NotFound();
             }
 
-            var funcionario = await _context.Funcionario
+            var categoria = await _context.Categoria
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (funcionario == null)
+            if (categoria == null)
             {
                 return NotFound();
             }
 
-            return View(funcionario);
+            return View(categoria);
         }
 
-        // POST: Funcionarios/Delete/5
+        // POST: Categorias/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var funcionario = await _context.Funcionario.FindAsync(id);
-            if (funcionario != null)
+            var categoria = await _context.Categoria.FindAsync(id);
+            if (categoria != null)
             {
-                _context.Funcionario.Remove(funcionario);
+                _context.Categoria.Remove(categoria);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool FuncionarioExists(int id)
+        private bool CategoriaExists(int id)
         {
-            return _context.Funcionario.Any(e => e.Id == id);
+            return _context.Categoria.Any(e => e.Id == id);
         }
     }
 }
